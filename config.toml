@@ -1,4 +1,4 @@
-baseURL = "https://www.leningangwal.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
