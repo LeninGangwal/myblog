@@ -4,7 +4,7 @@ date: 2020-10-23T10:14:43+05:30
 slug: "aa"	#This is for sub link. /blog/aa
 description: "hi"
 keywords: []
-draft: true
+draft: false
 tags: []
 math: false
 toc: false
