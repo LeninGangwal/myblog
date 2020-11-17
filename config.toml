@@ -8,7 +8,9 @@ theme = "hugo-theme-codex"
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
-baseURL = "https://leningangwal.com"
+#wont work baseURL = "leningangwal.com"
+baseURL = "https://leningangwal.github.io"
+#baseURL = "/"
 copyright = "© {year}"
 
 # Add your Disqus shortname here.
@@ -65,16 +67,16 @@ copyright = "© {year}"
   url = "/"
 
 [[menu.main]]
+  identifier = "post"
+  name = "post"
+  title = "Post"
+  url = "/post"
+
+[[menu.main]]
   identifier = "now"
   name = "now"
   title = "Now"
   url = "/now"
-
-[[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  title = "Blog"
-  url = "/blog"
 
 
 
