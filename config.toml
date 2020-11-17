@@ -5,6 +5,7 @@
 # DO NOT REMOVE THIS
 theme = "hugo-theme-codex" 
 
+
 # Override these settings with your own
 title = "codex"
 languageCode = "en-us"
@@ -67,16 +68,22 @@ copyright = "© {year}"
   url = "/"
 
 [[menu.main]]
-  identifier = "post"
-  name = "post"
-  title = "Post"
-  url = "/post"
+  identifier = "posts"
+  name = "posts"
+  title = "Posts"
+  url = "/posts"
 
 [[menu.main]]
   identifier = "now"
   name = "now"
   title = "Now"
   url = "/now"
+
+[[menu.main]]
+  identifier = "bucketlist"
+  name = "bucketlist"
+  title = "Bucketlist"
+  url = "/bucketlist"
 
 
 
