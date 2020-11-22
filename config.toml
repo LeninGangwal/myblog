@@ -1,5 +1,3 @@
-# REMOVE THIS
-
 # themesDir = "../../" 
 
 # DO NOT REMOVE THIS
@@ -7,7 +5,7 @@ theme = "hugo-theme-codex"
 
 
 # Override these settings with your own
-title = "codex"
+title = "LeninGangwal"
 languageCode = "en-us"
 #wont work baseURL = "leningangwal.com"
 baseURL = "https://leningangwal.github.io"
@@ -27,19 +25,20 @@ copyright = "© {year}"
   dateFormat = "Jan 2 2006"
 
   # Links to your social accounts, comment/uncomment as needed. Icons will be displayed for those specified.
-  twitter = "https://twitter.com/<your handle>"
-  github = "https://github.com/<your handle>"
-  # email = "mailto:<your email>"
+  #twitter = "https://twitter.com/<your handle>"
+  github = "https://github.com/LeninGangwal/"
+  email = "mailto:gangwallenin@gmail.com"
   # facebook = "https://facebook.com/<your handle>"
   # gitlab = "https://gitlab.com/<your handle>"
   # instagram = "https://instagram.com/<your handle>"
-  # linkedin = "<link to your profile>"
+  linkedin = "https://in.linkedin.com/in/lenin-gangwal-67a779a4"
+  goodreads = "https://www.goodreads.com/user/show/39263180-lenin-gangwal"
   # youtube = "https://www.youtube.com/channel/<your channel>"
   
   # Titles for your icons (shown as tooltips), and also their display order.
   # Currently, these icons are supported: 
-  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube"
-  iconOrder = ["Twitter", "GitHub"]
+  #   "Twitter", "GitHub", "Email", "Facebook", "GitLab", "Instagram", "LinkedIn", "YouTube",
+  iconOrder = ["Twitter","Email", "GoodReads", "LinkedIn", "GitHub"]
 
   # Metadata for Twitter cards, defaults to params.twitter
   # twitterSite = "@<your handle>"
@@ -62,28 +61,32 @@ copyright = "© {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = " about"
+  identifier = "about"
   name = "about"
   title = "About"
   url = "/"
+  weight = 1
 
 [[menu.main]]
   identifier = "posts"
   name = "posts"
   title = "Posts"
   url = "/posts"
+  weight = 4
 
 [[menu.main]]
   identifier = "now"
   name = "now"
   title = "Now"
   url = "/now"
+  weight = 2
 
 [[menu.main]]
   identifier = "bucketlist"
   name = "bucketlist"
   title = "Bucketlist"
   url = "/bucketlist"
+  weight = 3
 
 
 
